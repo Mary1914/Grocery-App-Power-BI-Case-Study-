@@ -1,1 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Grocery App Sales Analysis | Full Report</title>
+
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.65; margin: 32px; color:#1f2937; }
+    h1 { font-size: 38px; margin: 0 0 6px; color:#0f172a; }
+    h2 { margin-top: 26px; color:#0f172a; }
+    h3 { margin-top: 16px; color:#0f172a; }
+    p, ul { max-width: 980px; }
+    .small { color:#64748b; font-size: 14px; }
+    .btn {
+      display:inline-block; padding:10px 16px; margin: 10px 10px 0 0;
+      background:#0f172a; color:#fff; text-decoration:none; border-radius:10px;
+      font-weight:bold;
+    }
+    .btn.secondary { background:#475569; }
+    .btn:hover { background:#111827; }
+    .btn.secondary:hover { background:#334155; }
+    .card { background:#f8fafc; border:1px solid #e2e8f0; border-radius:12px; padding:16px; margin: 16px 0; max-width: 1080px; }
+    img { max-width: 1080px; width: 100%; border:1px solid #e5e7eb; border-radius:12px; margin-top: 10px; }
+    .note { color:#475569; font-size: 14px; margin-top: 6px; }
+    .kpi { display:flex; flex-wrap:wrap; gap:10px; margin-top:10px; }
+    .pill { background:#eef2ff; color:#3730a3; padding:6px 10px; border-radius:999px; font-size:13px; }
+  </style>
+</head>
+
+<body>
+
+  <a class="btn secondary" href="index.html">← Back to Home</a>
+
+  <h1>Grocery App Sales Analysis — Full Report</h1>
+  <p class="small">Power BI dashboard + business insights + recommendations.</p>
+
+  <div class="kpi">
+    <div class="pill">Total Sales: 1.20M</div>
+    <div class="pill">Avg Sales: 140.99</div>
+    <div class="pill">Items: 9K</div>
+    <div class="pill">Avg Rating: 3.92</div>
+  </div>
+
+  <div class="card">
+    <h2>Objective</h2>
+    <p>
+      Analyse grocery retail sales to identify which product categories and outlet characteristics
+      drive performance, and provide clear actions to improve sales and customer outcomes.
+    </p>
+
+    <a class="btn secondary" href="product_provision_Data.xlsx" download>⬇ Download Dataset (Excel)</a>
+    <a class="btn secondary" href="grocer%20app%20visual1.pbix" download>⬇ Download Power BI Report (.pbix)</a>
+  </div>
+
+  <h2>Dashboard</h2>
+  <p>Below is the main Power BI dashboard page used in this analysis.</p>
+
+  <img src="dashboard1.png" alt="Grocery App Power BI Dashboard">
+
+  <p class="note">
+    The dashboard highlights sales split by fat category, item type performance, outlet location tier comparisons,
+    outlet establishment year trends, and outlet size contribution to sales.
+  </p>
+
+  <h2>Key Insights (from the dashboard)</h2>
+
+  <h3>1) Category performance differs significantly</h3>
+  <ul>
+    <li>Item types contribute unevenly to total sales — a few categories lead overall performance.</li>
+    <li>This suggests inventory and promotions should focus on the strongest categories first.</li>
+  </ul>
+
+  <h3>2) Outlet characteristics impact revenue</h3>
+  <ul>
+    <li>Sales vary by <strong>outlet size</strong> and <strong>location tier</strong>, meaning store profile affects buying behaviour.</li>
+    <li>Tier-based planning helps: different store types need different product mixes and campaigns.</li>
+  </ul>
+
+  <h3>3) Establishment year trend shows maturity effects</h3>
+  <ul>
+    <li>Some outlet establishment periods show higher total sales than others.</li>
+    <li>Older/more mature outlets may have stronger customer base and repeat purchase behaviour.</li>
+  </ul>
+
+  <h3>4) Ratings provide a quality signal</h3>
+  <ul>
+    <li>Average rating is <strong>3.92</strong> — decent, but there is room to improve customer experience.</li>
+    <li>Better product quality, availability, and store experience can raise ratings and retention.</li>
+  </ul>
+
+  <h2>Recommendations</h2>
+  <ul>
+    <li><strong>Focus on top-performing item types:</strong> prioritise stocking and promotions for the highest sales categories.</li>
+    <li><strong>Tier-based store strategy:</strong> tailor product mix and offers by outlet location tier.</li>
+    <li><strong>Improve underperforming outlets:</strong> use outlet size + sales insights to identify stores needing intervention.</li>
+    <li><strong>Boost ratings:</strong> address product availability and quality issues that impact customer satisfaction.</li>
+    <li><strong>Track improvements:</strong> refresh dashboard monthly and measure KPI movement.</li>
+  </ul>
+
+  <h2>Skills Demonstrated</h2>
+  <ul>
+    <li>Power BI dashboard development and KPI reporting</li>
+    <li>Retail analytics (category, outlet, trend-based analysis)</li>
+    <li>Data storytelling with business recommendations</li>
+    <li>Repository documentation for recruiters (GitHub Pages)</li>
+  </ul>
+
+</body>
+</html>
 
