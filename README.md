@@ -3,7 +3,8 @@
 This project analyses grocery retail sales data to identify key drivers of performance across **item type**, **fat category**, and **outlet characteristics** (size, location tier, establishment year).
 
 ## Live Report (GitHub Pages)
-➡️ **View here:** YOUR_GITHUB_PAGES_LINK_HERE
+➡️ **View here:** 
+https://mary1914.github.io/Grocery-App-Power-BI-Case-Study-/
 
 ## What’s inside
 - **Dashboard KPIs:** Total Sales (1.20M), Avg Sales (140.99), Items (9K), Avg Rating (3.92)
